@@ -1,0 +1,19 @@
+{
+  "name": "project_node",
+  "version": "1.0.0",
+  "description": "Based on automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "Mohd Areeb",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "puppeteer": "^15.5.0"
+  }
+}

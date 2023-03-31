@@ -1,0 +1,129 @@
+{{>header}}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&display=swap');
+
+    *{
+        font-family: 'Kaisei Opti', serif;
+        font-size: 18px;
+    }
+    /*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400&family=Square+Peg&display=swap');
+*/
+
+    h3 {
+        color: rgb(243, 61, 61);
+        text-align: center;
+        font-family: 'Square Peg'
+    }
+    .about{
+        display: flex;
+        width: 100%;
+    }
+    .left{
+        flex:1;
+        
+        margin: 78px;
+    }
+    .left:first-child{
+        margin-right: 20px;
+    }
+    .container_services{
+        display: flex;
+    }
+    .left_service{
+
+    }
+    .center_service{
+        margin-right: 104px;
+    }
+    .right_service{
+        
+    }   
+</style>
+
+<body>
+    {{>navbar}}
+    <h3 class="my-2">Welcome To The Automation Website</h3>
+    <div class="about my-2">
+        <div class="left">
+            <p>All the daily work which we need to frequently according to our schedule. This website is made 
+                for the ease of the user . As the name suggest this website autommaticaly perform tyhe daily basis work of the user.
+            </p>
+            <p>
+                The texhnology used for this is Node js, and several packages of the node .The main pacakage which do all the autamatix stuff is peppitier.
+            </p>
+            <p>This website is made <span style="color:blue">Mohd Areeb</span> final year student of Btech Computer Science And Engineering in<span style="color:red"> Inderprastha Engineering College</span></p>
+        </div>
+        <div class="right">
+            {{!-- <img src="https://miro.medium.com/max/842/0*mVzL3TUbbqT0dIwi.jpg" height="420px"alt=""> --}}
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://miro.medium.com/max/842/0*mVzL3TUbbqT0dIwi.jpg" height="420px" alt="" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://miro.medium.com/max/842/0*mVzL3TUbbqT0dIwi.jpg" height="420px"  alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://miro.medium.com/max/842/0*mVzL3TUbbqT0dIwi.jpg" height="420px"  alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        
+        </div>
+    </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://www.netsolutions.com/insights/wp-content/uploads/2021/06/ux-design-process-user-research.jpg" height="380px" width="500px" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/08/UX_design_principles_jpg_-EtzLc2m.jpg?auto=format&q=60&fit=max&w=930" height="380px" width="500px" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://authenticjobs.com/wp-content/uploads/2022/02/preview16-71.jpg" height="380px" width="500px" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    
+            <h3>Services which we provide </h3>
+        <div class="container_services">
+              <div class="left_service">
+                <a href="/instagram"><img src="https://cdn.telanganatoday.com/wp-content/uploads/2022/05/Instagram-users-irked-with-the-new-update.jpg" height="250px" alt=""></a>
+              </div>
+              <div class="center_service">
+                <a href="/facebook"><img src="https://play-lh.googleusercontent.com/9s-9zONYk4NZvLlHVMIF5cGCzrx7PjZYQ3uow5P8Rj2Mt_XHWygV3gOt75_iI1YtTg" alt=""></a>
+              </div> 
+              <div class="right_service">
+                <a href="/ipec"><img src="data:image/png;base64,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" alt=""></a>
+              </div> 
+        </div>
+    
+</body>
+
+</html>
